@@ -30,9 +30,7 @@ mv rawdata data/raw
 ls data/raw
 
 # 4. In ./data/processed, create the following directories: server_logs, user_logs, and event_logs
-mkdir data/processed
-cd processed
-mkdir server_logs user_logs event_logs
+mkdir data/processed data/server_logs data/event_logs
 
 # 5. Copy all server log files (files with "server" in the name AND a .log extension) from ./data/raw to ./data/processed/server_logs
 cd ..
