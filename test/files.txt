@@ -1,4 +1,0 @@
-assignment.sh*
-assignment_instructions.md
-rawdata/
-rawdata.zip
